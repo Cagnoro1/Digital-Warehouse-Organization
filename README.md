@@ -1,4 +1,17 @@
 # Digital-Warehouse-Organization
-Digital Organization of a shoe warehouse company with all the Information Systems needed to make the system work. Mr Smith Johnson's shoe distribution business, thriving for over 5 years, faces challenges with outdated manual record-keeping. We spearheaded the transition to a computerized system, employing diagrams and databases to streamline processes and improve customer service, contributing to long-term success.
 
-Mr. Smith Johnson has successfully operated a shoe distribution business for over 5 years, catering to local stores and individual shoe care providers. Despite increasing sales, the outdated manual record-keeping system using index cards and paper has led to issues like outdated customer information and order management difficulties. To address these challenges, we led the transition to a computerized system, employing Ishikawa diagrams, Entity Relationship Diagrams (ERD), and Context Data Flow Diagrams (DFD) to design an automated solution. By selecting appropriate hardware and software, defining staff skill sets, and implementing procedures, we ensured efficient data management and improved customer service. Our efforts also included creating database tables, utilizing SQL queries for data retrieval, and developing a web-based interface, contributing to the long-term success and growth of Mr. Johnson's business.
+## Table of contents
+- [Project Overview](#project-overview) 
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Limitation](#limitation)
+- [References](#references)
+
+### Project Overview 
+
+The project aims to modernize and optimize the operations of Mr. Smith Johnson's medium-sized distributorship, which specializes in selling shoes, footwear, and accessories. Over the past five years, the business has experienced significant growth, resulting in an expanded inventory and customer base. However, the current manual record-keeping system is no longer sufficient to manage the increased workload efficiently. The project will focus on implementing digital solutions to address key business challenges and improve overall efficiency.
+
+
