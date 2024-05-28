@@ -8,6 +8,7 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Systems Design](#systems-design)
 - [Relational Diagram](#relational-diagram)
 - [Database](#database)
 - [Populated Tables](#populated-tables)
@@ -37,9 +38,14 @@ d) Who are the current customers (from 2020 to 2023)?
 e) What customers have overdue payments and what did they purchase? 
 f)What recommendation would you propose to improve the Business overall?
 
+### Systems Design
+![SYS analysis ](https://github.com/Cagnoro1/Warehouse-Digital-Organization/assets/135088212/0e2ed52a-8587-40e0-8d70-1c5c40774837)
+
+
 ### Relational Diagram
 
-![Relational Diagram ](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/7c7e76eb-2e55-40f9-9fc9-2d578b9d194f)
+![Relational Diagram ](https://github.com/Cagnoro1/Warehouse-Digital-Organization/assets/135088212/26beae96-9dc2-4b45-bdbe-566d1cf30248)
+
 
 ### Database
 
