@@ -112,7 +112,6 @@ CREATE TABLE Pro_Sys
  FOREIGN KEY (sup_ID) REFERENCES Suppliers(sup_ID)
 );
 
-![image](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/d4a317a1-0fcf-4a41-9958-eac75546679d)
 
 
 ```
