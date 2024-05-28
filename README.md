@@ -162,6 +162,10 @@ WHERE Accounts.acc_dueD < acc_payD;
 
 ```
 ### Recommendations
+1) Inventory Management Optimization: This company needs to prioritize products that sale fast to maximize their revenues. These products are: Converse, Roxy, Nike, Clarks, New Balance, Maidden Girl, Adidas Samba, Nike Air Max, Wide Width Loafers, Wedges Ankle Strap, Adidas Ultraboost, Drawstring Backpack, Silk Scarf, Shoe Polish (black), Leather Cleaner, Shoe Deodorizer, Shoe Laces (flat), Shoe Horn, Loafers Tassel, Nike Air Force 1.
+   
+2) Customer Retention Strategies: 
+
 
 
 
