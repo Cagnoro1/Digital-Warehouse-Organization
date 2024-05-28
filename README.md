@@ -139,9 +139,9 @@ WHERE prod_instock = 200 AND prod_QOH > 150 AND prod_date >= '2022-10-01' AND pr
 
 3) Retrieve all the current customers (from 2020 to 2023) from the Customer table.
 
- ```SQL
+```SQL 
 
- SELECT cus_ID, cus_name, cus_Odate
+SELECT cus_ID, cus_name, cus_Odate
 FROM Customers
 WHERE YEAR(cus_Odate) BETWEEN 2020 AND 2023;
 
