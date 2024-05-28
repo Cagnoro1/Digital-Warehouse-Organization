@@ -7,6 +7,7 @@
 - [Project Overview](#project-overview) 
 - [Data Sources](#data-sources)
 - [Tools](#tools)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Relational Diagram](#relational-diagram)
 - [Database](#database)
 - [Populated Tables](#populated-tables)
@@ -26,6 +27,15 @@ The dataset was created using MySQL.
 ### Tools
 - Microsoft Excel - Data cleaning, Data Analysis
 - MySQL  - Data Analysis
+
+### Exploratory Data Analysis
+
+a) Explored the sales data to answer key questions, such as:
+b) What products are selling quickly?
+c) What products are selling slowly?
+d) Who are the current customers (from 2020 to 2023)?
+e) What customers have overdue payments and what did they purchase? 
+f)What recommendation would you propose to improve the Business overall?
 
 ### Relational Diagram
 
