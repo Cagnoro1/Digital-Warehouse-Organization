@@ -6,7 +6,7 @@
 - [Tools](#tools)
 - [Relational Diagram](#relational-diagram)
 - [Database](#database)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Populated Tables](#populated-tables)
 - [Data Analysis](#data-analysis)
 - [Limitation](#limitation)
 - [References](#references)
@@ -17,7 +17,7 @@ The project aims to modernize and optimize the operations of Mr. Smith Johnson's
 
 
 ### Data Sources
-Dataset was created using MySQL.
+The dataset was created using MySQL.
 
 ### Tools
 - Microsoft Excel - Data cleaning, Data Analysis
@@ -113,6 +113,50 @@ CREATE TABLE Pro_Sys
 
 ![image](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/d4a317a1-0fcf-4a41-9958-eac75546679d)
 
+
+```
+
+### Retrieved tables
+
+1) Retrieve all the products that sell quickly!
+   ```SQL
+
+   SELECT prod_ID, prod_name, prod_instock, prod_date, prod_sold, prod_QOH, prod_price
+FROM Products
+WHERE prod_instock = 200 AND prod_QOH <= 5 AND prod_date >= '2022-10-01' AND prod_date <= '2023-01-31';
+
+   ```
+
+2) Retrieve all the products that sell slowly!
+
+```SQL
+
+SELECT prod_ID, prod_name, prod_instock, prod_date, prod_sold, prod_QOH, prod_price
+FROM Products
+WHERE prod_instock = 200 AND prod_QOH > 150 AND prod_date >= '2022-10-01' AND prod_date <= '2023-01-31';
+
+```
+
+3) Retrieve all the current customers (from 2020 to 2023) from the Customer table.
+
+ ```SQL
+
+ SELECT cus_ID, cus_name, cus_Odate
+FROM Customers
+WHERE YEAR(cus_Odate) BETWEEN 2020 AND 2023;
+
+```
+
+4) Retrieve all the customers whose accounts are overdue together with the respective products they purchased.
+
+ ```SQL
+
+SELECT Customers.cus_ID, Customers.cus_name, Products.prod_name, Accounts.acc_dueD
+FROM Accounts
+JOIN Customers ON Accounts.cus_ID = Customers.cus_ID
+JOIN Products ON Accounts.prod_type = Products.prod_type
+WHERE Accounts.acc_dueD < acc_payD;
+![image](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/8fe4f712-91f9-43c7-bee0-385346e52256)
 
 ```
 
