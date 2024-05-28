@@ -169,8 +169,16 @@ WHERE Accounts.acc_dueD < acc_payD;
 
 4)  Account Receivable Management: Develop a system to manage overdue accounts to minimize losses and maintain a good cash flow. Implementing reminders for overdue payments and implementing other flexible methods of payment could be beneficial to customers facing financial difficulties.
 
-5)  Supplier Relationship Enhancement:
+5)  Supplier Relationship Enhancement: To negotiate better terms such as volume discounts or extended deadlines, the company has to strengthen its relationship with the Suppliers. That will Improve profitability and reduce costs.
 
+6)  Improve Customer Service: Companies should invest in staff training. This will upskill them in customer service, and help them provide personalized assistance to the customers.
+      
+7)  Increase Online presence: Online presence is very important for businesses nowadays. 
+the business should optimize its social media engagement, online advertisement, and website to enhance that. This will reach a wider audience and attract new customers.
+
+9) Regular Performance Monitoring: Monitor key performance indicators (KPIs) such as customer satisfaction scores, sales revenue, inventory turnover, and accounts receivable aging. This will help in identifying areas for improvement and taking proactive measures to address any issues.
+
+10) Adaptation to Changing Market Conditions: Stay adaptable to changing market conditions by regularly reviewing and adjusting business strategies.
 
 
 
