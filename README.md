@@ -121,6 +121,8 @@ CREATE TABLE Pro_Sys
 
 ### Data Analysis
 
+#### All RETRIVED TABLE CAN BE FIND IN" Retrieved tables about Digital warehouse organization The warehouse .docx" 
+
 1) Retrieve all the products that sell quickly!
 
 ```SQL
@@ -151,7 +153,7 @@ WHERE YEAR(cus_Odate) BETWEEN 2020 AND 2023;
 
 ```
 
-4) Retrieve all the customers whose accounts are overdue together with the respective products they purchased.
+4) Retrieve all the customers whose accounts are overdue together with the respective products they purchased. 
 
  ```SQL
 
@@ -160,7 +162,7 @@ FROM Accounts
 JOIN Customers ON Accounts.cus_ID = Customers.cus_ID
 JOIN Products ON Accounts.prod_type = Products.prod_type
 WHERE Accounts.acc_dueD < acc_payD;
-![image](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/8fe4f712-91f9-43c7-bee0-385346e52256)
+
 
 ```
 ### Recommendations
