@@ -9,6 +9,7 @@
 - [Populated Tables](#populated-tables)
 - [Data Analysis](#data-analysis)
 - [Limitation](#limitation)
+- [Recommendations](#recommendations)
 - [References](#references)
 
 ### Project Overview 
@@ -116,7 +117,7 @@ CREATE TABLE Pro_Sys
 
 ```
 
-### Retrieved tables
+### Data Analysis
 
 1) Retrieve all the products that sell quickly!
 
@@ -160,5 +161,7 @@ WHERE Accounts.acc_dueD < acc_payD;
 ![image](https://github.com/Cagnoro1/Digital-Warehouse-Organization/assets/135088212/8fe4f712-91f9-43c7-bee0-385346e52256)
 
 ```
+### Recommendations
+
 
 
