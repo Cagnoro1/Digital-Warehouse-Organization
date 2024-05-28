@@ -1,4 +1,4 @@
-# Digital-Warehouse-Organization
+# Warehouse Digital Organization
 
 ## Table of contents
 - [Project Overview](#project-overview) 
