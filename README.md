@@ -122,7 +122,7 @@ CREATE TABLE Pro_Sys
 
 ```SQL
 
-   SELECT prod_ID, prod_name, prod_instock, prod_date, prod_sold, prod_QOH, prod_price
+SELECT prod_ID, prod_name, prod_instock, prod_date, prod_sold, prod_QOH, prod_price
 FROM Products
 WHERE prod_instock = 200 AND prod_QOH <= 5 AND prod_date >= '2022-10-01' AND prod_date <= '2023-01-31';
 
