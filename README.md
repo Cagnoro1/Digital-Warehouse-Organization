@@ -30,12 +30,12 @@ The dataset was created using MySQL.
 
 ### Exploratory Data Analysis
 
-a) Explored the sales data to answer key questions, such as:
-b) What products are selling quickly?
-c) What products are selling slowly?
-d) Who are the current customers (from 2020 to 2023)?
-e) What customers have overdue payments and what did they purchase? 
-f)What recommendation would you propose to improve the Business overall?
+- a) Explored the sales data to answer key questions, such as:
+- b) What products are selling quickly?
+- c) What products are selling slowly?
+- d) Who are the current customers (from 2020 to 2023)?
+- e) What customers have overdue payments and what did they purchase? 
+- f)What recommendation would you propose to improve the Business overall?
 
 ### Systems Design
 ![SYS analysis ](https://github.com/Cagnoro1/Warehouse-Digital-Organization/assets/135088212/0e2ed52a-8587-40e0-8d70-1c5c40774837)
